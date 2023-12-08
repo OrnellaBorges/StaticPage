@@ -1,0 +1,68 @@
+.diagram {
+  margin-top: 2.12rem;
+  padding: var(--padding-x);
+}
+
+.diagram-image-container {
+  min-width: 11.6875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diagram-image {
+  height: fit-content;
+  margin-bottom: 1.5rem;
+}
+
+.diagram-list {
+  max-width: 49rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.diagram-element {
+  margin: 0 0 1.5rem 2.5rem;
+}
+
+.diagram-title {
+  font-size: var(--normal-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+}
+
+.diagram-description {
+  font-size: var(--normal-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+  color: var(--secondary-text);
+}
+
+@media screen and (min-width: 768px) {
+  .diagram {
+    display: flex;
+    justify-content: center;
+  }
+
+  .diagram-image-container {
+    margin-right: 4.6875rem;
+  }
+
+  .diagram-list {
+    width: min-content;
+  }
+
+  .diagram-element {
+    width: 22rem;
+  }
+}
+
+@media screen and (min-width: 1111px) {
+  .diagram-list {
+    width: auto;
+  }
+}

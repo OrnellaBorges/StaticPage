@@ -1,0 +1,13 @@
+@import url("ss-rvp-imports.css");
+
+* {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.main {
+  padding: 1.25rem 0 var(--article-top-spacing);
+}
+
+.hidden {
+  display: none;
+}

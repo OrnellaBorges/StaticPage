@@ -1,0 +1,87 @@
+.vignettes-group {
+  margin-top: 0.5rem;
+}
+
+.vignettes {
+  padding-left: 1.5rem;
+}
+
+.vignettes {
+  margin-top: var(--vignettes-top-spacing);
+  display: flex;
+  overflow-x: scroll;
+}
+
+.vignettes::-webkit-scrollbar {
+  display: none;
+}
+
+.vignette {
+  background-color: #f5f4f5;
+  display: flex;
+  margin: 0 1.5rem 1.5rem 0;
+  height: 5.5rem;
+  width: 12.5rem;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.vignette-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 1.3125rem */
+  letter-spacing: -0.00875rem;
+  padding: 1rem;
+}
+
+.vignette-image-container img {
+  max-width: none;
+  max-height: 100%;
+}
+
+[href="#man"] img {
+  padding-top: 0.5rem;
+  position: relative;
+  right: 0.5rem;
+}
+
+[href="#woman"] img {
+  padding-right: 1rem;
+}
+
+[href="#shoes"] img {
+  padding: 1.25rem;
+}
+
+[href="#skiboots"] img {
+  padding: 0.5rem 2rem 0.5rem 0;
+}
+
+[href="#headwear"] img {
+  padding: 1rem 1rem 0 0;
+}
+
+[href="#gloves"] img {
+  padding: 0.2rem 2rem 0.2rem 0;
+}
+
+[href="#helmet"] img {
+  padding: 0.4rem 2rem 0.4rem 0;
+}
+
+[href="#knee"] img {
+  padding-right: 2rem;
+}
+[href="#wrist"] img {
+  padding-bottom: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  .vignettes {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+}

@@ -1,0 +1,10 @@
+
+:root {
+  --base-black: #000;
+  --secondary-text: #616161;
+  --normal-font-size: 1rem;
+  --padding-x: 0 1.5rem;
+  --article-top-spacing: 6rem;
+  --table-article-top-spacing: 1.5rem;
+  --vignettes-top-spacing: 1.5rem;
+}

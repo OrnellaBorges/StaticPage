@@ -1,0 +1,17 @@
+.section {
+  margin-top: var(--article-top-spacing);
+}
+
+.section-subtitle {
+  margin-top: 0.25rem;
+}
+
+.section-text {
+  font-size: var(--normal-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+  padding: var(--padding-x);
+  color: var(--secondary-text);
+}
